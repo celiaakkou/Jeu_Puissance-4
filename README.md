@@ -1,91 +1,58 @@
-# Jeu_Puissance-4
-Description du projet
-Ce projet est une implémentation du jeu classique Puissance 4 en Python utilisant la bibliothèque Tkinter pour l'interface graphique. Le jeu oppose deux joueurs qui alternent pour placer des jetons de leur couleur dans une grille verticale de 6 lignes et 7 colonnes. Le but est d'aligner 4 jetons de sa couleur horizontalement, verticalement ou en diagonale avant son adversaire.
+Jeu Puissance 4
+Description
+Jeu Puissance 4 en Python avec interface Tkinter. Deux joueurs s’affrontent pour aligner 4 jetons (horizontal, vertical ou diagonal) dans une grille 6x7.
 
-Fonctionnalités principales
-Interface graphique intuitive avec animation des jetons qui tombent
+Fonctionnalités
+Interface graphique avec animation des jetons
 
-Mode console pour suivre le déroulement du jeu
+Mode console
 
-Système de score qui compte les victoires de chaque joueur et les matchs nuls
+Comptage des scores (victoires, matchs nuls)
 
-Sauvegarde/chargement des parties en cours
+Sauvegarde et chargement des parties
 
-Personnalisation des paramètres visuels (vitesse de chute, taille de la grille)
+Personnalisation des paramètres visuels
 
-Animation visuelle avec des indicateurs clignotants
+Indicateurs visuels animés
 
-Configuration requise
+Prérequis
 Python 3.x
 
-Bibliothèques Python:
-
-tkinter
-
-random
-
-time
-
-json
-
-math
+Bibliothèques standard : tkinter, random, time, json, math
 
 Installation
-Téléchargez tous les fichiers du projet
+Télécharger les fichiers du projet
 
-Assurez-vous que Python 3 est installé sur votre système
+Vérifier que Python 3 est installé (bibliothèques incluses)
 
-Les bibliothèques requises sont incluses dans la distribution standard de Python
+Utilisation
+Lancer : python puissance4.py
 
-Comment jouer
-Lancez le programme avec python puissance4.py
+Cliquer sur une colonne pour jouer
 
-Cliquez sur la colonne où vous souhaitez placer votre jeton
-
-Le jeu alterne automatiquement entre les joueurs jaune et rouge
-
-Le premier à aligner 4 jetons gagne la partie
-
-Utilisez les boutons pour:
-
-Rejouer (réinitialise la partie)
-
-Sauvegarder (enregistre la partie en cours)
-
-Quitter (ferme l'application)
+Boutons : rejouer, sauvegarder, quitter
 
 Personnalisation
-Vous pouvez modifier les paramètres au début du fichier:
+Modifier en début de fichier :
 
-NB_PARTIES: Nombre de parties à jouer
+NB_PARTIES, MODE_GRAPHIQUE, TEMPS_CHUTE
 
-MODE_GRAPHIQUE: Active/désactive l'interface graphique
+LARGEUR_GRILLE, NB_COLONNES, NB_LIGNES
 
-TEMPS_CHUTE: Vitesse d'animation des jetons
+ALIGNEMENT
 
-LARGEUR_GRILLE: Taille de la grille de jeu
+Organisation
+Configuration
 
-NB_COLONNES/NB_LIGNES: Dimensions de la grille
+Interface Tkinter
 
-ALIGNEMENT: Nombre de jetons à aligner pour gagner
+Logique du jeu
 
-Structure du code
-Le code est organisé en plusieurs sections:
+Affichage console/interface
 
-Configuration initiale - Paramètres globaux du jeu
+Gestion événements
 
-Interface graphique - Création des widgets Tkinter
+Sauvegarde/chargement
 
-Fonctions de jeu - Logique du Puissance 4
-
-Fonctions d'affichage - Pour la console et l'interface
-
-Gestion des événements - Interactions utilisateur
-
-Sauvegarde/chargement - Persistance des parties
-
-Auteurs
-AKKOU Celia 
-
-Licence
-L2 Informatique - Université de Versaille Saint Quentin 
+Auteur
+Celia AKKOU - L2 Informatique, UVSQ
